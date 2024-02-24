@@ -66,6 +66,18 @@ h2 {
     font-size: 200%;
     color: aqua;
 }
+h3{
+    color: chocolate;
+    text-align: center;
+}
+h4{
+    background-image: linear-gradient(to right,gold,whitesmoke,gold,whitesmoke,gold,whitesmoke);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    text-align: center;
+    
+}
 nav{
     z-index: 1;
     position: relative;
