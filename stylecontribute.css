@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0; 
     padding: 20px; 
-    background-color: black;
+    background-color: whitesmoke;
 }
 nav{
     z-index: 1;
@@ -54,13 +54,43 @@ a{
     border-radius: 3px;
     text-decoration: none;
 }
-a.active,a:hover{
-    color: aqua;
-    transition: 1s;
+a:hover{
+    opacity: 0.7;
+    transition: 0.2s;
+}
+a.active{
+    opacity: 0.5;
+}
+.githublink{
+    color: black;
+    margin-left: -32px;
 }
 #maincontributewindow{
     margin-top: 125px;
-    color: aqua;
+    color: black;
     font-weight: 200;
     font-size: 200%;
 }
+.tape{
+    color: black;
+    font-size: 200%;
+}
+.connectus{
+    font-size: 75%;
+}
+.fa {
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: -10px;
+    border-radius: 1px;
+    color: black;
+    border-color: black;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
