@@ -4,6 +4,7 @@ body {
     padding: 20px; 
     background-color: whitesmoke;
 }
+
 nav{
     z-index: 1;
     position: relative;
@@ -65,14 +66,28 @@ a.active{
     color: black;
     margin-left: -32px;
 }
+.githublink:hover{
+    background-image: linear-gradient(to right,gold,black,gold,black,gold,black);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
 #maincontributewindow{
     margin-top: 125px;
     color: black;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 200%;
 }
+.hi{
+    margin-left: 240px;
+    margin-bottom: 240px;
+    text-align: center;
+}
 .tape{
-    color: black;
+    background-image: linear-gradient(to right,gold,black,gold,black,gold,black);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    color: transparent; 
     font-size: 200%;
 }
 .connectus{
@@ -85,12 +100,14 @@ a.active{
     text-decoration: none;
     margin: -10px;
     border-radius: 1px;
-    color: black;
+    background-image: linear-gradient(to right,black,whitesmoke,black,whitesmoke,black);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    color: transparent; 
     border-color: black;
   }
 
 .fa:hover {
     opacity: 0.7;
+    color: gold;
 }
-
-
